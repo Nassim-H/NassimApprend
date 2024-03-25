@@ -14,7 +14,6 @@ const IndexPage= () => {
         <Header />
         <Hero />
         <Apropos />
-        <QuiSuisJe />
         <FAQ />
         <Footer />
         </>

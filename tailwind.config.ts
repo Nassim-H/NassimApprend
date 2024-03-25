@@ -14,6 +14,7 @@ const config: Config = {
         accent: '#FED55D',
         background: '#F2F2F2',
         text: '#333333',
+        mountain: '#0a0809'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

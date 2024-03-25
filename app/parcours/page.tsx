@@ -16,30 +16,6 @@ const Experience = () => {
 
 
 
-    const timelineItems = [
-        {
-          date: '2008 - 2014',
-          title: 'Apprentissage Autodidacte',
-          description: 'Apprentissage autodidacte durant mes années de collège et de lycée.'
-        },
-        {
-            date: '2008 - 2014',
-            title: 'Apprentissage Autodidacte',
-            description: 'Apprentissage autodidacte durant mes années de collège et de lycée.'
-          },
-          {
-            date: '2008 - 2014',
-            title: 'Apprentissage Autodidacte',
-            description: 'Apprentissage autodidacte durant mes années de collège et de lycée.'
-          },
-
-          {
-            date: '2008 - 2014',
-            title: 'Apprentissage Autodidacte',
-            description: 'Apprentissage autodidacte durant mes années de collège et de lycée.'
-          },
-
-    ]
     return (
       (
       <div>
@@ -54,7 +30,7 @@ const Experience = () => {
             <section className="mb-8">
             <div className=" p-6">
               <h2 className="text-2xl font-bold mb-4">Résumé</h2>
-              <p className="text-lg">Avec un parcours unique, je me suis formé à l'informatique en <b>autodidacte</b>. J'ai ensuite fais mes études dans le domaine. Mais je continue à apprendre en autodidacte sur <b>internet</b> car <b>j'aime</b> cette façon de me former (informatique, 3D, design..). Je la trouve plus efficace que l'enseignement à présentiel qui est souvent <b>lente</b> et <b>moins stimulante</b> pour mon cas. 
+              <p className="text-lg">Avec un parcours unique, je me suis formé à l&apos;informatique en <b>autodidacte</b>. J&apos;ai ensuite fais mes études dans le domaine. Mais je continue à apprendre en autodidacte sur <b>internet</b> car <b>j&apos;aime</b> cette façon de me former (informatique, 3D, design..). Je la trouve plus efficace que l&apos;enseignement à présentiel qui est souvent <b>lente</b> et <b>moins stimulante</b> pour mon cas. 
               </p>
             </div>
           </section>
@@ -72,10 +48,10 @@ const Experience = () => {
                 icon={<WorkIcon />}
                 visible={true}
                         >
-                <h3 className="vertical-timeline-element-title text-green-900 text-xl">Auto apprentissage de l'informatique</h3>
+                <h3 className="vertical-timeline-element-title text-green-900 text-xl">Auto apprentissage de l&apos;informatique</h3>
                 <h4 className="vertical-timeline-element-subtitle ">Miami, FL</h4>
                 <p>
-                Je découvre l'informatique et <b>l'auto apprentissage</b> sur internet durant mes années de <b>collège et de lycée</b>. J'apprends notamment sur <a href="test.com" target="_blank" className="text-blue-700">le site du 0</a> qui devient ensuite openclassroom.
+                Je découvre l&apos;informatique et <b>l&apos;auto apprentissage</b> sur internet durant mes années de <b>collège et de lycée</b>. J&apos;apprends notamment sur <a href="test.com" target="_blank" className="text-blue-700">le site du 0</a> qui devient ensuite openclassroom.
                 </p>
             </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -89,7 +65,7 @@ const Experience = () => {
         <h3 className="vertical-timeline-element-title text-green-900 text-xl">Baccaleauréat Général</h3>
         <h4 className="vertical-timeline-element-subtitle">Option Numérique et Sciences informatiques et mathématiques</h4>
         <p>
-          Je continue ma formation dans l'informatique en choisissant l'option <b>NSI</b> au lycée. J'obtiens mon <b>baccaleauréat</b> avec mention <b>bien</b>. Ayant précédemment appris les bases de l'informatique, je trouve les cours simples et intéressants.
+          Je continue ma formation dans l&apos;informatique en choisissant l&apos;option <b>NSI</b> au lycée. J&apos;obtiens mon <b>baccaleauréat</b> avec mention <b>bien</b>. Ayant précédemment appris les bases de l&apos;informatique, je trouve les cours simples et intéressants.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -103,7 +79,7 @@ const Experience = () => {
         <h3 className="vertical-timeline-element-title text-green-900 text-xl">B.U.T Informatique</h3>
         <h4 className="vertical-timeline-element-subtitle">Bachelor Universitaire de Technologie</h4>
         <p>
-          C'est donc naturellement que je m'oriente vers un <b>B.U.T Informatique</b> à l'I.U.T. J'y réapprends les bases de l'informatique (toujours avec des facilités) et me spécialise dans le <b>développement Web</b>. Je découvre également le <b>monde professionnel</b> durant deux stages...
+          C&apos;est donc naturellement que je m&apos;oriente vers un <b>B.U.T Informatique</b> à l&apos;I.U.T. J&apos;y réapprends les bases de l&apos;informatique (toujours avec des facilités) et me spécialise dans le <b>développement Web</b>. Je découvre également le <b>monde professionnel</b> durant deux stages...
         </p>
       </VerticalTimelineElement>
 
@@ -117,7 +93,7 @@ const Experience = () => {
         <h3 className="vertical-timeline-element-title text-green-900 text-xl">Stage dans un organisme public</h3>
         <h4 className="vertical-timeline-element-subtitle"><a href="https://www.metarisc.fr/posts/2023-01-01-lancement-metarisc/" target="_blank" className="text-blue-700">SDIS 62</a></h4>
         <p>
-          Durant ce stage, je découvre non seulement le monde professionnel mais surtout affirme mon envie <b>d'aider les autres</b>. En effet, rien ne me motive plus que de me sentir <b>utile</b> et de rendre service.
+          Durant ce stage, je découvre non seulement le monde professionnel mais surtout affirme mon envie <b>d&apos;aider les autres</b>. En effet, rien ne me motive plus que de me sentir <b>utile</b> et de rendre service.
         </p>
       </VerticalTimelineElement>
 
@@ -132,7 +108,7 @@ const Experience = () => {
         <h3 className="vertical-timeline-element-title text-green-900 text-xl">Enseignant et animateur</h3>
         <h4 className="vertical-timeline-element-subtitle">Association <a href="https://www.helloasso.com/associations/apas-bethunois" target="_blank" className="text-blue-700">APAS</a></h4>
         <p>
-          Dès Octobre 2023, je deviens <b>animateur</b> et <b>enseignant</b> dans l'association <b>APAS</b>. Je donne plus de <b>10 heures</b> de cours par semaine aux enfants de tout âge. Je découvre ce monde qui m'était nouveau et me <b>passionne</b> pour <b>l'enseignement</b>. Les enfants sont <b>attentionnés</b> et <b>curieux</b>, ce qui me pousse à continuer dans cette voie.
+          Dès Octobre 2023, je deviens <b>animateur</b> et <b>enseignant</b> dans l&apos;association <b>APAS</b>. Je donne plus de <b>10 heures</b> de cours par semaine aux enfants de tout âge. Je découvre ce monde qui m&apos;était nouveau et me <b>passionne</b> pour <b>l&apos;enseignement</b>. Les enfants sont <b>attentionnés</b> et <b>curieux</b>, ce qui me pousse à continuer dans cette voie.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -142,10 +118,10 @@ const Experience = () => {
         visible={true}
 
       >
-        <h3 className="vertical-timeline-element-title text-green-900 text-xl">Diplôme d'Animateur Fédéral</h3>
+        <h3 className="vertical-timeline-element-title text-green-900 text-xl">Diplôme d&apos;Animateur Fédéral</h3>
         <h4 className="vertical-timeline-element-subtitle">Karaté</h4>
         <p>
-          A côté de mes études, je continue après <b>10 ans</b> de pratique, à m'investir dans le <b>karaté</b>. Je suis en train de passer mon <b><a href="https://www.ffkarate.fr/espace-licencies/formations/diplome-animateur-federal-daf/" target="_blank" className="text-blue-700" >diplôme d'animateur fédéral</a></b> tout en <b>enseignant</b> avec le professeur dans mon club. 
+          A côté de mes études, je continue après <b>10 ans</b> de pratique, à m&apos;investir dans le <b>karaté</b>. Je suis en train de passer mon <b><a href="https://www.ffkarate.fr/espace-licencies/formations/diplome-animateur-federal-daf/" target="_blank" className="text-blue-700" >diplôme d&apos;animateur fédéral</a></b> tout en <b>enseignant</b> avec le professeur dans mon club. 
         </p>
       </VerticalTimelineElement>
       
@@ -159,7 +135,7 @@ const Experience = () => {
         <h3 className="vertical-timeline-element-title text-green-900 text-xl">Candidature à la Licence 3 en éducation</h3>
         <h4 className="vertical-timeline-element-subtitle">Licence éducation à distance</h4>
         <p>
-          Suite à mon <b>parcours formateur</b> dans l'enseignement, je souhaite continuer dans cette voie. Je postule donc pour une <b>licence 3 en éducation</b> à distance. J'espère ainsi continuer à <b>m'investir</b> dans l'éducation et à aider les enfants à grandir. Au-délà de ma passion pour l'enseignement, c'est également les méthodes d'apprentissage qui m'intéressent. Curieux et ambitieux, j'aime <b>comprendre</b> comment la société évolue afin d'être un acteur de sa bonne évolution.
+          Suite à mon <b>parcours formateur</b> dans l&apos;enseignement, je souhaite continuer dans cette voie. Je postule donc pour une <b>licence 3 en éducation</b> à distance. J&apos;espère ainsi continuer à <b>m&apos;investir</b> dans l&apos;éducation et à aider les enfants à grandir. Au-délà de ma passion pour l&apos;enseignement, c&apos;est également les méthodes d&apos;apprentissage qui m&apos;intéressent. Curieux et ambitieux, j&apos;aime <b>comprendre</b> comment la société évolue afin d&apos;être un acteur de sa bonne évolution.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement

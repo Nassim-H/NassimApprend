@@ -20,7 +20,7 @@ export default function MultiLayerParallax() {
         style={{ y: textY }}
         className="font-bold text-7xl md:text-9xl relative z-10"
       >
-        PARALLAX
+        Valeurs et Ambitions
       </motion.h1>
 
       <motion.div
@@ -35,7 +35,7 @@ export default function MultiLayerParallax() {
       <div
         className="absolute inset-0 z-20"
         style={{
-          backgroundImage: `url(/Subtract.png)`,
+          backgroundImage: `url(/bottom.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
         }}

@@ -26,7 +26,7 @@ function Question({ question, answer, isActive, onClick }: { question: string, a
     return (
         <div className="mb-8">
             <div className={`cursor-pointer flex justify-between items-center p-4 bg-white rounded-lg shadow-md transition duration-300 ${isActive ? 'border border-gray-300' : ''}`} onClick={onClick}>
-                <h3 className="text-xl md:text-2xl font-semibold text-blue-600">{question}</h3>
+                <h3 className="text-xl md:text-2xl font-semibold text-primary">{question}</h3>
                 <svg className={`w-6 h-6 fill-current ${isActive ? 'transform rotate-180' : ''}`} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>
             </div>
             {isActive && (
@@ -40,7 +40,7 @@ function Question({ question, answer, isActive, onClick }: { question: string, a
 
 const questions = [
   {
-    question: "Qu'est-ce que la Roqya?",
+    question: "Qu'est-ce que la Roqya ?",
     answer: (
         <span>
         La <i>Roqya</i>, ou <i>exorcisme légiférée</i> en français, est une pratique spirituelle basée sur des versets du <b>Coran</b> et des <b>invocations prophétiques</b>. Elle est utilisée pour guérir divers maux physiques et mentaux, tels que le mauvais œil, le mal occulte et les troubles psychologiques.

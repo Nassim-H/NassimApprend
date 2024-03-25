@@ -15,7 +15,7 @@ const Hero = () => {
             <p className="text-lg md:text-xl mb-8 text-white">Portfolio enseignant de Nassim</p>
             
             <div className="flex items-center justify-center">
-            <a href="#a-propos" className="btn-primary flex items-center py-2 px-4 bg-accent rounded-full shadow-md hover:shadow-lg transition duration-300 max-w-max">
+            <a href="/experience" className="btn-primary flex items-center py-2 px-4 bg-accent rounded-full shadow-md hover:shadow-lg transition duration-300 max-w-max">
               <span>En savoir plus</span>
               <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>

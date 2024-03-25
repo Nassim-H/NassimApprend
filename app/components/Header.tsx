@@ -4,7 +4,12 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 
-const NavItem = ({ text, path }) => {
+interface NavItemProps {
+  text: string;
+  path: string;
+}
+
+const NavItem:React.FC<NavItemProps> = ({ text, path }) => {
 
   const pathname = usePathname();
   const isActive = pathname === path;
@@ -44,7 +49,7 @@ const Header = () => {
           <NavItem text="Accueil" path="/" />
           <NavItem text="Expérience associative" path="/experience" />
           <NavItem text="Parcours" path="/parcours" />
-          <NavItem text="Ambitions" path="/ambitions" />
+          <NavItem text="Valeurs" path="/valeurs" />
         </ul>
       </div>
     </header>
