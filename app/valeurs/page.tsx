@@ -12,7 +12,6 @@ const Valeurs = () => {
       particleCount: 10,
       gravity: 0.5,
       origin: { y: 1},
-      shape: 'square'
     })
   }
 
@@ -90,7 +89,7 @@ const Valeurs = () => {
                 </div>
               </section>
 
-</section>
+          </section>
 
           </div>
       </section>
