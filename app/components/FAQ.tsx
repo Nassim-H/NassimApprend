@@ -51,16 +51,16 @@ const questions = [
     question: "Pourquoi ai-je choisi le programme de Licence 3 éducation à distance ?",
     answer: (
         <span>
-           En choisissant le programme de <em>Licence 3 en éducation</em> à distance, je souhaite non seulement <b>approfondir</b> ma compréhension des principes pédagogiques mais aussi explorer comment intégrer efficacement le numérique dans l'apprentissage. Mon objectif est de <b>contribuer</b> à transformer l'enseignement pour le rendre <b>plus</b> accessible, interactif et personnalisé.
+           En choisissant le programme de <em>Licence 3 en éducation</em> à distance, je souhaite non seulement <b>approfondir</b> ma compréhension des principes pédagogiques mais aussi explorer comment intégrer efficacement le numérique dans l&apos;apprentissage. Mon objectif est de <b>contribuer</b> à transformer l&apos;enseignement pour le rendre <b>plus</b> accessible, interactif et personnalisé.
         </span>
     )
   
   },
   {
-    question: "Quelle expérience préalable ais-je dans le domaine de l'éducation ?",
+    question: "Quelle expérience préalable ais-je dans le domaine de l&apos;éducation ?",
     answer:  (
         <span>
-          Je suis <b>enseignant</b> et <b>animateur</b> au sein de l'association APAS, je vous invite à découvrir davantage mon <b>expérience associative</b> <a href="/experience" target="_blank" className="text-blue-700">ici</a>.
+          Je suis <b>enseignant</b> et <b>animateur</b> au sein de l&apos;association APAS, je vous invite à découvrir davantage mon <b>expérience associative</b> <a href="/experience" target="_blank" className="text-blue-700">ici</a>.
         </span>
       )
 },
@@ -68,7 +68,7 @@ const questions = [
     question: "Comment mes expériences passées me préparent-elles pour réussir dans ce programme ?",
     answer: (
         <span>
-          Mon expérience en tant qu'enseignant, ou plutôt en tant que <b><a href="/experience#experience" target="_blank" className="text-blue-700">grand-frère</a></b> comme je me considère, me prépare à ce programme. Mais pas seulement, ayant étudié en autodidacte sur <b>internet</b>, je suis habitué à travailler seul et à m'organiser. Je suis bien préparé pour <b>l'autonomie</b> requise dans <b>l'apprentissage à distance</b>
+          Mon expérience en tant qu&apos;enseignant, ou plutôt en tant que <b><a href="/experience#experience" target="_blank" className="text-blue-700">grand-frère</a></b> comme je me considère, me prépare à ce programme. Mais pas seulement, ayant étudié en autodidacte sur <b>internet</b>, je suis habitué à travailler seul et à m&apos;organiser. Je suis bien préparé pour <b>l&apos;autonomie</b> requise dans <b>l&apos;apprentissage à distance</b>
         </span>
       )
 },
