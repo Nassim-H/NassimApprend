@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header className="py-8">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-4xl font-bold">Nassim Apprend</h1>
+        <h1 className="text-4xl font-bold">Nassim Hassain</h1>
         <nav className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="block text-gray-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none">
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

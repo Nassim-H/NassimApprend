@@ -6,8 +6,8 @@ import MultiLayerParallax from "./components/Parallax";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nassim Apprend",
-  description: "Portfolio enseignant de Nassim",
+  title: "Nassim Hassain",
+  description: "Portfolio de Nassim Hassain",
 };
 
 export default function RootLayout({
