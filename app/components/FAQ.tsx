@@ -85,23 +85,23 @@ const questions = [
   question: "Comment ai-je préparé mon environnement d'étude pour réussir dans un programme à distance ?",
   answer: (
       <span>
-    Ayant plusieurs <b>projets</b> en parallèle de mes études, j'ai dû <b>m'organiser</b> afin de pouvoir tout gérer. J'ai donc mis en place un <b>journal de productivité</b> qui me permet de gérer mon temps dans chaque projet. Je sais par exemple que pour le développement de ce site j'ai pris <b>15 heures</b>. J'ai également mis en place un <b>environnement de travail sain</b>, pour éviter toute <b>distraction</b>. Tout en utilisant la technique <a href="https://asana.com/fr/resources/pomodoro-technique" target="_blank" className="text-blue-700">Promodo</a> pour faire des <b>pauses régulières</b> qui sont essentielles à la santé mentale.
+    Ayant plusieurs <b>projets</b> en parallèle de mes études, j&apos;ai dû <b>m&apos;organiser</b> afin de pouvoir tout gérer. J&apos;ai donc mis en place un <b>journal de productivité</b> qui me permet de gérer mon temps dans chaque projet. Je sais par exemple que pour le développement de ce site j&apos;ai pris <b>15 heures</b>. J&apos;ai également mis en place un <b>environnement de travail sain</b>, pour éviter toute <b>distraction</b>. Tout en utilisant la technique <a href="https://asana.com/fr/resources/pomodoro-technique" target="_blank" className="text-blue-700">Promodo</a> pour faire des <b>pauses régulières</b> qui sont essentielles à la santé mentale.
       </span>
     )
 },
 {
-  question: "Comment mes expériences en informatique peuvent-elles enrichir mon approche de l'éducation ?",
+  question: "Comment mes expériences en informatique peuvent-elles enrichir mon approche de l&apos;éducation ?",
   answer: (
       <span>
-    Les technologies évoluent vite et <b>l'adaptation</b> est primordiale. Je suis donc bien placé pour <b>préparer</b> les élèves à un monde en <b>constante évolution</b>. Je peux également développer des <b>plateformes d'éducation</b> innovantes qui reposeraient sur mes <b>connaissances acquises</b> durant ma formation dans l'enseignement.
+    Les technologies évoluent vite et <b>l&apos;adaptation</b> est primordiale. Je suis donc bien placé pour <b>préparer</b> les élèves à un monde en <b>constante évolution</b>. Je peux également développer des <b>plateformes d&apos;éducation</b> innovantes qui reposeraient sur mes <b>connaissances acquises</b> durant ma formation dans l&apos;enseignement.
       </span>
     )
 },
 {
-  question : "Quel rôle la curiosité et l'apprentissage continu jouent-ils dans ma vie ?",
+  question : "Quel rôle la curiosité et l&apos;apprentissage continu jouent-ils dans ma vie ?",
   answer : (
     <span>
-      L'apprentissage continu fait parti de mon <b>quotidien</b>. Je considère chaque compétence <b>complémentaire</b> aux autres, d'une manière ou d'une autre. J'essaie donc de les relier afin de réaliser des projets d'envergure avec <b>professionnalisme</b> qui ont pour objectif de <b>durer</b> et d'évoluer.
+      L&apos;apprentissage continu fait parti de mon <b>quotidien</b>. Je considère chaque compétence <b>complémentaire</b> aux autres, d&apos;une manière ou d&apos;une autre. J&apos;essaie donc de les relier afin de réaliser des projets d&apos;envergure avec <b>professionnalisme</b> qui ont pour objectif de <b>durer</b> et d&apos;évoluer.
     </span>
   )
 },
@@ -109,7 +109,7 @@ const questions = [
   question : "Comment je me vois évoluer dans le domaine de l'éducation dans les cinq prochaines années ? ",
   answer : (
     <span>
-      J'ai pour objectif de continuer mon parcours académique dans l'éducation en poursuivant un <em>master</em> qui <b>perfectionnera</b> mes connaissances afin de réaliser mes <b>projets</b> de la meilleure des manières. Je souhaite par la suite travailler dans l'<b>éducation</b>, notamment auprès des jeunes afin de les <b>aider</b> à évoluer dans cette société.
+      J&apos;ai pour objectif de continuer mon parcours académique dans l&apos;éducation en poursuivant un <em>master</em> qui <b>perfectionnera</b> mes connaissances afin de réaliser mes <b>projets</b> de la meilleure des manières. Je souhaite par la suite travailler dans l&apos;<b>éducation</b>, notamment auprès des jeunes afin de les <b>aider</b> à évoluer dans cette société.
     </span>
   )
 },
@@ -117,7 +117,7 @@ const questions = [
   question: "Pourquoi devrais-je être choisi pour ce programme ?",
   answer: (
       <span>
-          <b>Motivé</b> et <b>determiné</b>, je pense pouvoir développer des <b>projets sociétaux</b> plus complets avec ces <b>diplômes</b> dans l'éducation. En effet, ma capacité à <b>fusionner</b> des compétences techniques avec une vision <b>humaniste</b> me distingue mais il est important d'avoir les <b>connaissances</b> nécessaires afin de réussir ces nombreux projets (voir page <a href="/valeurs" target="_blank" className="text-blue-700">Ambitions</a>)
+          <b>Motivé</b> et <b>determiné</b>, je pense pouvoir développer des <b>projets sociétaux</b> plus complets avec ces <b>diplômes</b> dans l&apos;éducation. En effet, ma capacité à <b>fusionner</b> des compétences techniques avec une vision <b>humaniste</b> me distingue mais il est important d&apos;avoir les <b>connaissances</b> nécessaires afin de réussir ces nombreux projets (voir page <a href="/valeurs" target="_blank" className="text-blue-700">Ambitions</a>)
       </span>
     )
 },
