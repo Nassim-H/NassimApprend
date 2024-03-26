@@ -31,7 +31,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="py-8">
+    <header className="py-8 bg-primary">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-4xl font-bold">Nassim Hassain</h1>
         <nav className="md:hidden">
@@ -49,7 +49,7 @@ const Header = () => {
           <NavItem text="Accueil" path="/" />
           <NavItem text="Expérience associative" path="/experience" />
           <NavItem text="Parcours" path="/parcours" />
-          <NavItem text="Valeurs" path="/valeurs" />
+          <NavItem text="Ambitions" path="/valeurs" />
         </ul>
       </div>
     </header>

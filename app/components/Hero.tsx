@@ -11,8 +11,8 @@ const Hero = () => {
       <div className="relative bg-primary h-screen flex items-center">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-around h-full">
           <div className="md:w-1/2 text-center md:text-left mt-8">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white ">Bienvenue sur Nassim Apprend</h1>
-            <p className="text-lg md:text-xl mb-8 text-white">Portfolio enseignant de Nassim</p>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white ">Bienvenue sur mon portfolio</h1>
+            <p className="text-lg md:text-xl mb-8 text-white">Portfolio de Nassim Hassain, étudiant en informatique et <b>enseignant</b> de langue arabe</p>
             
             <div className="flex items-center justify-center">
             <a href="/experience" className="btn-primary flex items-center py-2 px-4 bg-accent rounded-full shadow-md hover:shadow-lg transition duration-300 max-w-max">

@@ -26,7 +26,7 @@ function Question({ question, answer, isActive, onClick }: { question: string, a
     return (
         <div className="mb-8">
             <div className={`cursor-pointer flex justify-between items-center p-4 bg-white rounded-lg shadow-md transition duration-300 ${isActive ? 'border border-gray-300' : ''}`} onClick={onClick}>
-                <h3 className="text-xl md:text-2xl font-semibold text-primary">{question}</h3>
+                <h3 className="text-xl md:text-2xl font-semibold text-secondary">{question}</h3>
                 <svg className={`w-6 h-6 fill-current ${isActive ? 'transform rotate-180' : ''}`} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>
             </div>
             {isActive && (
@@ -40,54 +40,88 @@ function Question({ question, answer, isActive, onClick }: { question: string, a
 
 const questions = [
   {
-    question: "Qu'est-ce que la Roqya ?",
+    question: "Puis-je me présenter en une ligne ?",
     answer: (
         <span>
-        La <i>Roqya</i>, ou <i>exorcisme légiférée</i> en français, est une pratique spirituelle basée sur des versets du <b>Coran</b> et des <b>invocations prophétiques</b>. Elle est utilisée pour guérir divers maux physiques et mentaux, tels que le mauvais œil, le mal occulte et les troubles psychologiques.
+        Non, donc j&apos;ai développé un <b>site</b> pour le faire ! (Je suis ambitieux et curieux de tout)
         </span>
     )
   },
   {
-    question: "Qui peut pratiquer la Roqya?",
+    question: "Pourquoi ai-je choisi le programme de Licence 3 éducation à distance ?",
     answer: (
         <span>
-            La <i>Roqya</i> peut être pratiquée par des <b>spécialistes</b> formés dans ce domaine, mais également pas des <b>individus</b> souhaitant se protéger ou guérir des maux.
-            </span>
+           En choisissant le programme de <em>Licence 3 en éducation</em> à distance, je souhaite non seulement <b>approfondir</b> ma compréhension des principes pédagogiques mais aussi explorer comment intégrer efficacement le numérique dans l'apprentissage. Mon objectif est de <b>contribuer</b> à transformer l'enseignement pour le rendre <b>plus</b> accessible, interactif et personnalisé.
+        </span>
     )
   
   },
   {
-    question: "Quels sont les avantages de la Roqya?",
+    question: "Quelle expérience préalable ais-je dans le domaine de l'éducation ?",
     answer:  (
         <span>
-          La <i>Roqya</i> soigne des maux physiques et mentaux, à la <b>protection contre les influences négatives</b>, au <b>renforcement de la spiritualité et de la foi</b>, ainsi qu&apos;à <b>l&apos;amélioration du bien-être général</b>.
+          Je suis <b>enseignant</b> et <b>animateur</b> au sein de l'association APAS, je vous invite à découvrir davantage mon <b>expérience associative</b> <a href="/experience" target="_blank" className="text-blue-700">ici</a>.
         </span>
       )
 },
   {
-    question: "Est-ce que la Roqya guérit ?",
+    question: "Comment mes expériences passées me préparent-elles pour réussir dans ce programme ?",
     answer: (
         <span>
-          La <i>Roqya</i> est une cause de guérison, comme l&apos;on prend un médicament. En aucun cas il faut placer sa confiance en la roqya ni en quelconque cause, mais c&apos;est en <b>Allah Seul</b> qu&apos;il faut placer sa confiance pour la guérison. La Roqya est un <b>moyen</b>, et non une fin en soi.
+          Mon expérience en tant qu'enseignant, ou plutôt en tant que <b><a href="/experience#experience" target="_blank" className="text-blue-700">grand-frère</a></b> comme je me considère, me prépare à ce programme. Mais pas seulement, ayant étudié en autodidacte sur <b>internet</b>, je suis habitué à travailler seul et à m'organiser. Je suis bien préparé pour <b>l'autonomie</b> requise dans <b>l'apprentissage à distance</b>
         </span>
       )
 },
   {
-    question: "Je ne sais pas si un proche est touché par un mal occule, que faire ?",
+    question: "Ai-je des idées spécifiques que je souhaites développer dans le cadre de ce programme ?",
     answer: (
         <span>
-          La plus grande cause dans toute chose est d&apos;<b>invoquer Allah</b>. Ensuite, vous pouvez <b>me contacter</b> afin d&apos;en discuter et pourquoi pas organiser une rencontre In Shaa Allah.
+          Etant ambitieux, les <b>idées</b> ne sont pas ce qui manque. Je souhaite être <b>utile</b> à la <b>société</b>, dans ce cadre là, je souhaite développer <b>plusieurs</b> projets éducatifs. Vous pouvez en découvrir davantage <a href="/valeurs" target="_blank" className="text-blue-700">ici</a>.
         </span>
       )
 },
-  {
-    question: "Je suis triste, que faire ?",
-    answer: (
-        <span>
-      Il y a beaucoup de causes afin de dissiper les soucis, parmi elles : <b>demander pardon à Allah</b>, <b>la lecture et la méditation du Qur&apos;aan</b>, <b>être assidû(e) aux prières</b>, <b>faire des aumônes</b>... Tiré de AbdAllâh Ibn &apos;Abder Razzâq Al Badr fils de Cheikh &apos;Abder Razzâq Al &apos;Abbâd Al Badr: <a href="https://www.3ilmchar3i.net/2017/02/les-moyens-pour-dissiper-les-soucis.html" target='blank' className="text-blue-500 underline transition duration-300 hover:text-blue-600 hover:underline">lien</a>.
-        </span>
-      )
+  
+{
+  question: "Comment ai-je préparé mon environnement d'étude pour réussir dans un programme à distance ?",
+  answer: (
+      <span>
+    Ayant plusieurs <b>projets</b> en parallèle de mes études, j'ai dû <b>m'organiser</b> afin de pouvoir tout gérer. J'ai donc mis en place un <b>journal de productivité</b> qui me permet de gérer mon temps dans chaque projet. Je sais par exemple que pour le développement de ce site j'ai pris <b>15 heures</b>. J'ai également mis en place un <b>environnement de travail sain</b>, pour éviter toute <b>distraction</b>. Tout en utilisant la technique <a href="https://asana.com/fr/resources/pomodoro-technique" target="_blank" className="text-blue-700">Promodo</a> pour faire des <b>pauses régulières</b> qui sont essentielles à la santé mentale.
+      </span>
+    )
 },
+{
+  question: "Comment mes expériences en informatique peuvent-elles enrichir mon approche de l'éducation ?",
+  answer: (
+      <span>
+    Les technologies évoluent vite et <b>l'adaptation</b> est primordiale. Je suis donc bien placé pour <b>préparer</b> les élèves à un monde en <b>constante évolution</b>. Je peux également développer des <b>plateformes d'éducation</b> innovantes qui reposeraient sur mes <b>connaissances acquises</b> durant ma formation dans l'enseignement.
+      </span>
+    )
+},
+{
+  question : "Quel rôle la curiosité et l'apprentissage continu jouent-ils dans ma vie ?",
+  answer : (
+    <span>
+      L'apprentissage continu fait parti de mon <b>quotidien</b>. Je considère chaque compétence <b>complémentaire</b> aux autres, d'une manière ou d'une autre. J'essaie donc de les relier afin de réaliser des projets d'envergure avec <b>professionnalisme</b> qui ont pour objectif de <b>durer</b> et d'évoluer.
+    </span>
+  )
+},
+{
+  question : "Comment je me vois évoluer dans le domaine de l'éducation dans les cinq prochaines années ? ",
+  answer : (
+    <span>
+      J'ai pour objectif de continuer mon parcours académique dans l'éducation en poursuivant un <em>master</em> qui <b>perfectionnera</b> mes connaissances afin de réaliser mes <b>projets</b> de la meilleure des manières. Je souhaite par la suite travailler dans l'<b>éducation</b>, notamment auprès des jeunes afin de les <b>aider</b> à évoluer dans cette société.
+    </span>
+  )
+},
+{
+  question: "Pourquoi devrais-je être choisi pour ce programme ?",
+  answer: (
+      <span>
+          <b>Motivé</b> et <b>determiné</b>, je pense pouvoir développer des <b>projets sociétaux</b> plus complets avec ces <b>diplômes</b> dans l'éducation. En effet, ma capacité à <b>fusionner</b> des compétences techniques avec une vision <b>humaniste</b> me distingue mais il est important d'avoir les <b>connaissances</b> nécessaires afin de réussir ces nombreux projets (voir page <a href="/valeurs" target="_blank" className="text-blue-700">Ambitions</a>)
+      </span>
+    )
+},
+
   // Ajoutez d'autres questions et réponses ici
 ];
 

@@ -1,5 +1,4 @@
 'use client'
-import Spline from "@splinetool/react-spline"
 import Head from "next/head"
 import Header from "../components/Header"
 
@@ -8,6 +7,10 @@ import {
     VerticalTimelineElement
   } from "react-vertical-timeline-component";
   import 'react-vertical-timeline-component/style.min.css';
+import React, { Suspense } from "react";
+
+
+  const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
   const WorkIcon = () => <></>;
 
@@ -22,7 +25,9 @@ const Experience = () => {
         <div className="container mx-auto px-4 py-8">
             <section className="mb-12">
                 <div className="relative h-screen mb-8">
-                    <Spline scene="https://prod.spline.design/2bPLhD4t3yIY84bo/scene.splinecode"/>
+                  <Suspense fallback={<div className='text-center'>Loading...</div>}>
+                      <Spline scene="https://prod.spline.design/2bPLhD4t3yIY84bo/scene.splinecode"/>
+                  </Suspense>
                 </div>
             </section>
 
@@ -48,7 +53,7 @@ const Experience = () => {
                 visible={true}
                         >
                 <h3 className="vertical-timeline-element-title text-green-900 text-xl">Auto apprentissage de l&apos;informatique</h3>
-                <h4 className="vertical-timeline-element-subtitle ">Miami, FL</h4>
+                <h4 className="vertical-timeline-element-subtitle ">Les débuts en autodidacte</h4>
                 <p>
                 Je découvre l&apos;informatique et <b>l&apos;auto apprentissage</b> sur internet durant mes années de <b>collège et de lycée</b>. J&apos;apprends notamment sur <a href="test.com" target="_blank" className="text-blue-700">le site du 0</a> qui devient ensuite openclassroom.
                 </p>
@@ -78,7 +83,7 @@ const Experience = () => {
         <h3 className="vertical-timeline-element-title text-green-900 text-xl">B.U.T Informatique</h3>
         <h4 className="vertical-timeline-element-subtitle">Bachelor Universitaire de Technologie</h4>
         <p>
-          C&apos;est donc naturellement que je m&apos;oriente vers un <b>B.U.T Informatique</b> à l&apos;I.U.T. J&apos;y réapprends les bases de l&apos;informatique (toujours avec des facilités) et me spécialise dans le <b>développement Web</b>. Je découvre également le <b>monde professionnel</b> durant deux stages...
+          C&apos;est donc naturellement que je m&apos;oriente vers un <b>B.U.T Informatique</b> à l&apos;I.U.T. J&apos;y réapprends les bases de l&apos;informatique et me spécialise dans le <b>développement Web</b>. Je découvre également le <b>monde professionnel</b> durant deux stages...
         </p>
       </VerticalTimelineElement>
 
