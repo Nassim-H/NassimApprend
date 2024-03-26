@@ -12,13 +12,14 @@ interface NavItemProps {
 const NavItem:React.FC<NavItemProps> = ({ text, path }) => {
 
   const pathname = usePathname();
-  const isActive = pathname === path;
+  const isActive = pathname != path;
+  console.log(pathname, path)
 
   return (
     <motion.li
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className={`cursor-pointer py-2 px-4 border-b-2 border-transparent hover:border-accent transition duration-300 ${isActive ? 'border-accent' : ''}`}
+      className={`cursor-pointer py-2 px-4 border-b-2 border-transparent hover:border-accent transition duration-300 ${isActive ? '' : 'border-black'}`}
     >
       <Link href={path}>
         {text}
@@ -36,7 +37,7 @@ const Header = () => {
         <h1 className="text-4xl font-bold">Nassim Hassain</h1>
         <nav className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="block text-gray-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none">
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="w-6 h-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               {isOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -45,7 +46,7 @@ const Header = () => {
             </svg>
           </button>
         </nav>
-        <ul className={`md:flex ${isOpen ? 'block' : 'hidden'} md:items-center md:w-auto`}>
+        <ul className={`${isOpen ? 'fixed inset-0 bg-primary bg-opacity-95 z-50 flex flex-col items-center justify-center' : 'hidden'} md:flex md:items-center md:w-auto`}>
           <NavItem text="Accueil" path="/" />
           <NavItem text="Expérience associative" path="/experience" />
           <NavItem text="Parcours" path="/parcours" />
