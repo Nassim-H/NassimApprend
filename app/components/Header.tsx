@@ -13,7 +13,6 @@ const NavItem:React.FC<NavItemProps> = ({ text, path }) => {
 
   const pathname = usePathname();
   const isActive = pathname != path;
-  console.log(pathname, path)
 
   return (
     <motion.li
