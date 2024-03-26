@@ -12,13 +12,13 @@ interface NavItemProps {
 const NavItem:React.FC<NavItemProps> = ({ text, path }) => {
 
   const pathname = usePathname();
-  const isActive = pathname != path;
+  const isActive = pathname == path;
 
   return (
     <motion.li
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className={`cursor-pointer py-2 px-4 border-b-2 border-transparent hover:border-accent transition duration-300 ${isActive ? '' : 'border-black'}`}
+      className={`cursor-pointer py-2 px-4 border-b-2 border-transparent hover:border-accent transition duration-300 ${isActive ? 'border-accent' : ''}`}
     >
       <Link href={path}>
         {text}

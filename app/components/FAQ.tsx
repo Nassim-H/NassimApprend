@@ -57,7 +57,7 @@ const questions = [
   
   },
   {
-    question: "Quelle expérience préalable ais-je dans le domaine de l&apos;éducation ?",
+    question: "Quelle expérience préalable ais-je dans le domaine de l'éducation ?",
     answer:  (
         <span>
           Je suis <b>enseignant</b> et <b>animateur</b> au sein de l&apos;association APAS, je vous invite à découvrir davantage mon <b>expérience associative</b> <a href="/experience" target="_blank" className="text-blue-700">ici</a>.
@@ -90,7 +90,7 @@ const questions = [
     )
 },
 {
-  question: "Comment mes expériences en informatique peuvent-elles enrichir mon approche de l&apos;éducation ?",
+  question: "Comment mes expériences en informatique peuvent-elles enrichir mon approche de l'éducation ?",
   answer: (
       <span>
     Les technologies évoluent vite et <b>l&apos;adaptation</b> est primordiale. Je suis donc bien placé pour <b>préparer</b> les élèves à un monde en <b>constante évolution</b>. Je peux également développer des <b>plateformes d&apos;éducation</b> innovantes qui reposeraient sur mes <b>connaissances acquises</b> durant ma formation dans l&apos;enseignement.
@@ -98,7 +98,7 @@ const questions = [
     )
 },
 {
-  question : "Quel rôle la curiosité et l&apos;apprentissage continu jouent-ils dans ma vie ?",
+  question : "Quel rôle la curiosité et l'apprentissage continu jouent-ils dans ma vie ?",
   answer : (
     <span>
       L&apos;apprentissage continu fait parti de mon <b>quotidien</b>. Je considère chaque compétence <b>complémentaire</b> aux autres, d&apos;une manière ou d&apos;une autre. J&apos;essaie donc de les relier afin de réaliser des projets d&apos;envergure avec <b>professionnalisme</b> qui ont pour objectif de <b>durer</b> et d&apos;évoluer.
