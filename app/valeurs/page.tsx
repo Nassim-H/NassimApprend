@@ -65,8 +65,8 @@ const Valeurs = () => {
                   
 
                   <div className="flex justify-center mt-8">
-                  <button className="bg-primary text-black font-bold py-2 px-4 rounded-md text-center mr-4" onClick={onSubmit}>Fonce !</button>
-                    <button className="bg-primary text-black font-bold py-2 px-4 rounded-md text-center" onClick={onReflechis}>Réfléchis bien...</button>
+                  <button className="bg-accent text-black font-bold py-2 px-4 rounded-lg shadow-md shadow-accent/50 hover:shadow-accent/50 hover:shadow-lg text-center mr-4" onClick={onSubmit}>Fonce !</button>
+                    <button className="bg-primary text-black font-bold py-2 px-4 rounded-lg shadow-md shadow-primary/50 hover:shadow-primary/50  hover:shadow-lg transition duration-300 text-center" onClick={onReflechis}>Réfléchis bien...</button>
                   </div>
                
                
@@ -84,8 +84,8 @@ const Valeurs = () => {
                   <h3 className="text-3xl font-bold mb-6 text-accent">Les Défis et Solutions</h3>
                   <p className="text-lg text-gray-300 text-justify">L'<b>absence</b> de diplôme et de <b>garantie</b> de recrutement dans ce projet est présent. Cependant, non seulement cet accompagnement est une cause de développement de <b>compétences</b>, mais c'est également l'occasion d'élaborer un <b>portfolio</b> solide. Ce portfolio répond aussi à un autre défi : le <em>gap</em> présent entre les études et le travail. En concevant un site <b>complet</b> et en le mettant en ligne, l'élève aura une vue d'ensemble sur <b>l'ensemble</b> du projet et se rendra compte du travail des entreprises dans le domaine. Cet accompagnement offre également la possibilité de se lancer en <em>Freelance</em> à son compte.</p>
                   <div className="flex justify-center mt-8">
-                    <button className="bg-primary text-black font-bold py-2 px-4 rounded-md text-center mr-4" onClick={onSubmit}>Fonce !</button>
-                    <button className="bg-primary text-black font-bold py-2 px-4 rounded-md text-center" onClick={onReflechis}>Réfléchis bien...</button>
+                    <button className="bg-accent text-black font-bold py-2 px-4 rounded-lg  shadow-md shadow-accent/50 hover:shadow-accent/50  hover:shadow-lg text-center mr-4" onClick={onSubmit}>Fonce !</button>
+                    <button className="bg-primary text-black font-bold py-2 px-4 rounded-lg shadow-md shadow-primary/50 hover:shadow-primary/50  hover:shadow-lg text-center" onClick={onReflechis}>Réfléchis bien...</button>
                   </div>
                 </div>
               </section>
