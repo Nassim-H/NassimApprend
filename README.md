@@ -11,7 +11,7 @@ Ce site a pour ambition d'évoluer et de compléter mon projet qui part initiale
 
 En effet, je trouve ce sujet extrêmement important dans la société. Je souhaite, de par mon expérience, mes connaissances et mes compétences, être un **acteur** utile dans ce domiane, notamment en conseillant les parents mais également en proposant des solutions éducatives aux enfants et moins jeunes. 
 
-Ce site est pour l'instant un _portfolio_ mais j'ai pour désir de le transformer en _blog_ dans le _moyen-terme_. 
+Ce site est pour l'instant un _portfolio_ mais j'ai pour désir de le transformer en _blog_ dans le _moyen-terme_. (voir [tutoriel](https://youtu.be/Hiabp1GY8fA?si=cPWuqng_h3OUDylD))
 
 # Technologies
 
@@ -29,3 +29,54 @@ Cependant, comme ce site a pour objectif de devenir un **blog**, j'ai déjà ré
 
 Je garde cette porte ouverte, j'y reviendrais plus tard dans l'évolution de la **marque**.
 
+# Priorité principale du projet
+
+## Identité de marque et design
+
+### Courte documentation Tailwind
+
+### Couleurs personnalisées Tailwind
+
+### Maquettage
+
+# Rappel Next.JS
+
+
+Documentation [officielle](https://nextjs.org/docs)
+
+Voici les commandes essentielles :
+
+Commande création de projet Next.JS : 
+`npx create-next-app@latest`
+
+Lancement en _développement_ : 
+`npm run dev`
+
+Lancement en _production_ :
+`npm run build`
+`npm run start`
+
+## App router
+
+## Structure de fichiers et navigation
+
+## Pourquoi toujours Next.JS ? 
+
+# Nouveautés dans ce projet !
+
+## Framer Motion
+
+## Spline
+
+Commande installation dépendance : `npm install @splinetool/react-spline @splinetool/runtime` documentation : [npm](https://www.npmjs.com/package/@splinetool/react-spline)
+
+## Le parallaxe
+
+[Tutoriel suivi](https://youtu.be/29UWA-GdA7k?si=ab8D0fNP5NoV6mvR)
+
+## Des confettis !
+Commande installation dépendance : `npm install --save canvas-confetti` documentation : [npm](https://www.npmjs.com/package/canvas-confetti)
+
+
+
+## Difficultés rencontrées
