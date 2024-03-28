@@ -62,6 +62,9 @@ Lancement en _production_ :
 
 ## Pourquoi toujours Next.JS ? 
 
+# Suivi et Git
+
+Commande pour aller au dernier commit (supprime toutes les modifications non enregistrées ): `git reset --hard HEAD`
 # Nouveautés dans ce projet !
 
 ## Framer Motion
