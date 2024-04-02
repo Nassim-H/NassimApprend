@@ -75,8 +75,7 @@ const Experience = () => {
               Lors de mes premiers cours avec les maternelles, j&apos;ai été surpris par leur énergie déborante. J&apos;ai dû trouver des moyens de les canaliser. Le meilleur moyen de captiver l&apos;attention des plus petits et des plus grands : <b>raconter des histoires</b>.
             </Anecdote>
             <Anecdote color="bg-primary" icon={<MdOutlineWavingHand className="h-8 w-8 text-rose-400" />}>
-              Lors de mes tournées dans les rangs pour aider chacun des élèves, j&apos;entendais très souvent mon prénom dans les rangs, et je me retournais pour voir <b>plusieurs</b> élèves <b>me demander de l&apos;aide</b> ! Cela m&apos;a permis de comprendre l&apos;importance de la <b>proximité</b> avec les élèves.
-            </Anecdote>
+            A chaque fois que je faisais le tour des rangs pour offrir mon aide, je voyais de <b>nombreuses</b> mains se lever et entendais mon prénom s&apos;élever dans la classe. Les élèves me demandaient activemenet de l&apos;aide. Cela m&apos;a clairement fait comprendre combien il est crucial de maitnenir une <b>proximité</b> et une disponibilité constantes avec les élèves.            </Anecdote>
             <Anecdote align='center' icon={<PiChairLight className="h-8 w-8 text-rose-400" />}>
               Un jour, je me suis rendu compte qu&apos;un élève avait <b>beaucoup de mal</b> à suivre le cours. J&apos;ai pris le temps de m&apos;asseoir à côté de lui et de lui expliquer les choses <b>plus lentement</b>. Il m&apos;a ensuite sollicité durant les cours suivants avec <b>motivation</b>.
             </Anecdote>
