@@ -43,7 +43,7 @@ const questions = [
     question: "Puis-je me présenter en une ligne ?",
     answer: (
         <span>
-        Non, donc j&apos;ai développé un <b>site</b> pour le faire ! (Je suis ambitieux et curieux de tout)
+        Non, donc j&apos;ai développé un <b>site</b> pour le faire !
         </span>
     )
   },
