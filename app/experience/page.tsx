@@ -44,7 +44,7 @@ const Experience = () => {
           <section className="mb-8">
             <div className="bg-secondary shadow-lg rounded-md p-6">
               <h2 className="text-xl font-semibold mb-4">Missions</h2>
-              <p className="text-lg">J&apos;ai eu l&apos;opportunité d&apos;enseigner à des enfants âgés de <b>5 à 11 ans</b> dans un environnement associatif. J&apos;ai enseigné la <b>langue arabe</b> à un niveau <b>débutant</b>, de façon personnalisée en fonction de chaque élèvre. J&apos;ai également élaboré différents <b>jeux ludiques</b> afin de combiner l&apos;apprentissage de la langue arabe avec l&apos;amusement.</p>
+              <p className="text-lg">J&apos;ai eu l&apos;opportunité d&apos;enseigner à des enfants âgés de <b>5 à 14 ans</b> dans un environnement associatif. J&apos;ai enseigné la <b>langue arabe</b> à un niveau <b>débutant</b>, de façon personnalisée en fonction de chaque élève. J&apos;ai également élaboré différents <b>jeux ludiques</b> afin de combiner l&apos;apprentissage de la langue arabe avec l&apos;amusement.</p>
             </div>
           </section>
 
@@ -52,7 +52,7 @@ const Experience = () => {
           <section  id="experience" className="mb-8">
             <div className="bg-secondary shadow-md rounded-md p-6">
               <h2 className="text-xl font-semibold mb-4">Expérience avec les enfants</h2>
-              <p className="text-lg">Ma plus grande <b>réussite</b> dans ce poste reste la <b>proximité</b> que j&apos;ai développé avec les enfants. Je ne me considère <b>pas</b> comme un professeur, ni même un animateur, mais plutôt comme un <b>grand frère</b> : je prends le temps d&apos;écouter chacun, de jouer avec chacun tout en enseignant. Le but est de leur <b>donner envie</b> d&apos;apprendre la langue arabe, mais pas seulement. J&apos;ai également comme priorité d&apos;aider les enfants en difficulté quelconque qui ont besoin de parler...</p>
+              <p className="text-lg">Ma plus grande <b>réussite</b> dans ce poste reste la <b>proximité</b> que j&apos;ai développé avec les enfants. Je ne me considère <b>pas</b> comme un simple professeur mais comme un éducateur : je prends le temps d&apos;écouter chacun, de jouer avec chacun tout en enseignant. Le but est de leur <b>donner envie</b> d&apos;apprendre la langue arabe, mais pas seulement. J&apos;ai également comme priorité d&apos;aider les enfants en difficulté quelconque qui ont besoin de parler...</p>
             </div>
           </section>
 
@@ -81,7 +81,7 @@ const Experience = () => {
               Un jour, je me suis rendu compte qu&apos;un élève avait <b>beaucoup de mal</b> à suivre le cours. J&apos;ai pris le temps de m&apos;asseoir à côté de lui et de lui expliquer les choses <b>plus lentement</b>. Il m&apos;a ensuite sollicité durant les cours suivants avec <b>motivation</b>.
             </Anecdote>
             <Anecdote color='bg-accent' align='right' icon={<TbSchool className="h-8 w-8 text-rose-400"  />}>
-              Comme dans tout établissement scolaire, il y a des classes plus difficiles à gérer, et j&apos;ai eu ma part. J&apos;ai appris à <b>garder mon calme</b> et à <b>ne pas me laisser déborder</b> par les élèves. Je prenais le temps de comprendre la situation afin de l&apos;apaiser. J&apos;ai notamment appris que certaines frateries ne s&apos;entendent pas du tout. Je me rends compte de l&apos;importance de la <b>vie à la maison</b> dans la réussite scolaire.
+              Comme dans tout établissement scolaire, il y a des classes plus difficiles à gérer. J&apos;ai appris à <b>garder mon calme</b> et à <b>ne pas me laisser déborder</b> par les élèves. Je prenais le temps de comprendre la situation afin de l&apos;apaiser. J&apos;ai notamment appris que certaines frateries ne s&apos;entendent pas du tout. Je me rends compte de l&apos;importance de la <b>vie à la maison</b> dans la réussite scolaire.
             </Anecdote>
             <Anecdote color='bg-primary' icon={<GiFamilyTree className="h-8 w-8 text-rose-400"  />}>
               Je n&apos;ai pas seulement appris des enfants, j&apos;ai également pris conscience de l&apos;importance du <b>travail des parents</b>. C&apos;est en effet les parents les plus <b>investis</b> qui ont les enfants les plus <b>motivés</b>. J&apos;ai donc mis en évidence durant les réunions entre responsables l&apos;importance de <b>l&apos;implication des parents</b>, ne serait-ce que demander à l&apos;enfant ce qu&apos;il a appris durant le cours.

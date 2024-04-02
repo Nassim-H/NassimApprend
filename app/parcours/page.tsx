@@ -34,7 +34,7 @@ const Experience = () => {
             <section className="mb-8">
             <div className=" p-6">
               <h2 className="text-2xl font-bold mb-4">Résumé</h2>
-              <p className="text-lg text-justify">Avec un parcours unique, je me suis formé à l&apos;informatique en <b>autodidacte</b>. J&apos;ai ensuite fais mes études dans le domaine. Mais je continue à apprendre en autodidacte sur <b>internet</b> car <b>j&apos;aime</b> cette façon de me former (informatique, 3D, design..). Je la trouve plus efficace que l&apos;enseignement à présentiel qui est souvent <b>lente</b> et <b>moins stimulante</b> pour mon cas. 
+              <p className="text-lg text-justify">Avec un parcours unique, je me suis formé à l&apos;informatique en <b>autodidacte</b>. J&apos;ai ensuite fais mes études dans le domaine. Mais je continue à apprendre en autodidacte sur <b>internet</b> car <b>j&apos;aime</b> cette façon de me former (informatique, 3D, design..). Je la trouve plus efficace que l&apos;enseignement à présentiel qui est souvent <b>moins stimulante</b> pour mon cas. 
               </p>
             </div>
           </section>

@@ -68,7 +68,7 @@ const questions = [
     question: "Comment mes expériences passées me préparent-elles pour réussir dans ce programme ?",
     answer: (
         <span>
-          Mon expérience en tant qu&apos;enseignant, ou plutôt en tant que <b><a href="/experience#experience" target="_blank" className="text-blue-700">grand-frère</a></b> comme je me considère, me prépare à ce programme. Mais pas seulement, ayant étudié en autodidacte sur <b>internet</b>, je suis habitué à travailler seul et à m&apos;organiser. Je suis bien préparé pour <b>l&apos;autonomie</b> requise dans <b>l&apos;apprentissage à distance</b>
+          Mon expérience en tant qu&apos;<b><a href="/experience#experience" target="_blank" className="text-blue-700">enseignant</a></b> me prépare à ce programme. Mais pas seulement, ayant étudié en autodidacte sur <b>internet</b>, je suis habitué à travailler seul et à m&apos;organiser. Je suis bien préparé pour <b>l&apos;autonomie</b> requise dans <b>l&apos;apprentissage à distance</b>
         </span>
       )
 },
